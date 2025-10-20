@@ -3,11 +3,10 @@
 on:
   push:
     branches:
-      - master
+      - master  # ou main si ta branche principale s'appelle main
 
 jobs:
   build:
-    name: Run SonarQube Scan
     runs-on: ubuntu-latest
 
     steps:
